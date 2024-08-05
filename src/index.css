@@ -5,9 +5,51 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #5a639c;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.buttons button{
+  width: 100px;
+  height: 100px;
+  padding: 2rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 2rem;
+  color: #FF6969;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: 0.3s; 
+  background-color: #E2BBE9;
+  font-weight: 900;
+}
+.buttons{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100px;
+  cursor: pointer;
+  gap: 20px;
+  margin-right: 200px;
+}
+.Reset{
+  padding: 2rem 3rem;
+  margin-top: 20px; 
+  border: none;
+  font-size: 2rem;
+  border-radius: 2rem;
+  margin-left:30px ;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.button:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5); 
 }
